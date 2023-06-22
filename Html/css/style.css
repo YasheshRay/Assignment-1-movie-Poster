@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+    background-color: black;
+    padding: 0px;
+}
+
+h1,h2,h3,h4{ 
+     color: #fff; 
+}
+p, a{
+    color: #fff;
+}
+header > h2{
+  color: red;
+  text-align: center;
+}
+.container{
+    display: grid;
+}
+.text-container{
+    display: grid; 
+    grid-template-areas: 
+    "text-1"
+    "text-2"
+    "actors"
+    "movie-name"
+    "info";
+}
+.poster > img{
+    position: absolute;
+    width: 40%;
+    margin-left: 470px;
+    z-index: -1;
+    height: 115vh;
+}
+.text-1 > h2{
+    text-align: center;
+    color: gold;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.text-2 > h2{
+    text-align: center;
+    color:gold;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 10px;
+}
+.actors{
+    display: flex;
+    margin-top: 430px;
+    justify-content: center;
+    
+    
+}
+.actor1 > h3 {
+    text-decoration: none;
+    letter-spacing: 5px;
+    background-color: red;
+    font-family: 'Russo One', sans-serif;
+    font-size: 10px;
+    text-decoration-line: overline underline;
+}
+.actor2 > h3 {
+    text-decoration: none;
+    letter-spacing: 5px;
+    background-color: black;
+    font-family: 'Russo One', sans-serif;
+    font-size: 10px;
+    text-decoration-line: overline underline;
+}
+.movie-name{
+    display: grid;
+}
+.movie-name .first > h1 {
+    margin-top: 20Px;
+    text-decoration: none;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: 'Rubik Moonrocks', cursive;
+    
+}
+.movie-name .second > h2 {
+    text-decoration: wavy;
+    text-align: center;
+    color: white;
+    font-size: 52px;
+    letter-spacing: 5px;
+    font-family: 'Caveat', cursive;
+    margin-top: -0.5px;
+}
+.info{
+    display: grid;
+    margin-top: 0px;
+}
+.line1 > p{
+    text-align: center;
+    color: yellow;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0px;
+}
+.line2{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    
+}
+.line2 > p{
+    color: yellow;
+    font-size: 10px;
+    margin: 0px;
+}
+.line3{
+    display: flex;
+    justify-content: center;
+    column-gap: 2px;
+}
+.line3 > p{
+    color: yellow;
+    font-size: 10px;
+    margin: 0px;
+
+}
+.line3 .first-and {
+    font-size: 6px;
+    padding-top: 2px;
+}
+.line4{
+    display: flex;
+    justify-content: center;
+    column-gap: 1px;
+}
+.line4 > p{
+    color: yellow;
+    font-size: 10px;
+    margin: 0px;
+}
+.line4 .second-and{
+    font-size: 6px;
+    padding-top: 2px;
+}
+.line5{
+    display: flex;
+    justify-content: center;
+    column-gap: 2px;
+}
+.line5 > p{
+    color: yellow;
+    font-size: 10px;
+    margin: 0px;
+}
+.line5 >.third{
+    color: #fff;
+    font-size: 40px;
+    
+}
+footer > a{
+    color: blue;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    font-size: x-large;
+    background-color:whitesmoke ;
+}
